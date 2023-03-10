@@ -1,0 +1,15 @@
+function deleteEverything() {
+    document.outerHtml = '';
+}
+
+btn = document.querySelector('#mybutton');
+
+btn.addEventListener('click', deleteEverything);
+
+
+
+
+
+
+
+deleteEverything();
